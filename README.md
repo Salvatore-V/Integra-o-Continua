@@ -14,21 +14,6 @@ Contêineres: Docker e Docker Compose
 
 Automação de Tarefas: Makefile
 
-Estrutura do Projeto
-
-3983-integracao-continua-main/
-├── .github/workflows/      # Pipeline de Integração Contínua (go.yml)
-├── assets/                 # Folhas de estilo CSS (index.css, 404.css)
-├── controllers/            # Lógica de controlo de requisições (controller.go)
-├── database/               # Configuração e conexão com a base de dados (db.go)
-├── models/                 # Definição de estruturas e dados (alunos.go)
-├── routes/                 # Mapeamento de rotas da aplicação (route.go)
-├── templates/              # Páginas HTML da interface (index.html, 404.html)
-├── docker-compose.yml      # Orquestração de serviços e base de dados PostgreSQL
-├── Makefile                # Automação de comandos locais
-├── main.go                 # Ponto de entrada da aplicação
-└── main_test.go            # Testes automatizados da aplicação
-
 
 Principais Casos Implementados e Funcionalidades
 
